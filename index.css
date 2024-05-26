@@ -1,79 +1,84 @@
-.body{
-    height: 100%;
-    width: 100%;
-    
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
 }
-/* .bigbox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-} */
-.content{
-    width: auto;
-    height: 100%;
-    padding-left: 400px;
-    padding-right: 400px;
-   
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-     */
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
-.head{
-    padding-left: 130px;
-    font-family: 'Roboto', sans-serif;
+
+.content {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px 60px;
+  text-align: center;
 }
-.smalltext{
-    padding-left: 300px;
-    font-family: 'Roboto', sans-serif;
+
+.head {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
 }
-.innerpanel{
-    
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-   
+
+.innerpanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
-.btnbtn-dec{
-    
-    color: white;
-    background-color: red;
-    width: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
+
+.btnbtn-dec,
+.btnbtn-inc {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin: 0 20px;
 }
-.resetbtn{
-    padding-left: 310px; 
+
+.btnbtn-dec img,
+.btnbtn-inc img {
+  width: 30px;
+  height: 30px;
 }
-    
-.btnbtn-inc{
-    color: white;
-    background-color: green;
-    width: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+#text {
+  font-size: 36px;
+  margin: 0 20px;
 }
-.resetbtn{
-    padding-bottom: 30px;
+
+.reset {
+  background-color: aquamarine;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
 }
-.reset{
-    background-color: aquamarine;
-    border-radius: 5px;
-    
-   
-   
+
+.reset:hover {
+  background-color: #76d7c4;
 }
-.borderforbutton{
-border-style: groove;
-    
+
+.smalltext {
+  margin-top: 20px;
+  color: #777;
+  font-size: 14px;
+}
+
+.borderforbutton {
+  border-style: groove;
+  padding: 20px;
+  border-radius: 10px;
 }
